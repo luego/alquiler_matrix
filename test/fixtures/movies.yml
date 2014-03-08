@@ -1,21 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  title: MyString
-  description: MyText
-  genre: MyString
-  actors: MyString
-  duration: MyString
+  title: matrix
+  description: neo vuela
+  genre: Accion
+  actors: Keane Reeves
+  duration: 190
   release: 2014-03-08
-  rate: MyString
-  language: MyString
+  rate: E
+  language: English
 
 two:
-  title: MyString
-  description: MyText
-  genre: MyString
-  actors: MyString
-  duration: MyString
+  title: hackers
+  description: hackers
+  genre: Accionon
+  actors: Angelina jolie
+  duration: 120
   release: 2014-03-08
-  rate: MyString
-  language: MyString
+  rate: E
+  language: English
