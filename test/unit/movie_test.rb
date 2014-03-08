@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class MovieTest < ActiveSupport::TestCase
-  test "Todos los campos son obligatorios" do
+  test "save successfully" do
     movie = Movie.new
     movie.title = movies(:one).title
 
