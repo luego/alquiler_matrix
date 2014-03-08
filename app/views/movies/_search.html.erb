@@ -1,0 +1,21 @@
+<div class="small-8 columns">
+<%= form_tag({:controller => "movies", :action => "search"}, :method => "get") do %>
+<label>Movie title
+  <%= text_field_tag :search, params[:search], :id => 'search_field' %>
+  </label>
+  <%= submit_tag "Search", :name => nil,class: 'button [tiny small radius round]' %>
+<% end %>
+</div>
+<div class="small-4 columns">
+<label>Genre
+<select>
+    <option value='-1'>Todos</option>
+    <option value='Drama'>Drama</option>
+    <option value='Accion'>Accion</option>
+    <option value='Terror'>Terror</option>
+    <option value='Suspenso'>Suspenso</option>
+    <option value='Comedia'>Comedia</option>
+    </select>
+    </label>
+
+</div>

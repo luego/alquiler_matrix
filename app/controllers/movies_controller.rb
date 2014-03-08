@@ -81,6 +81,12 @@ class MoviesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def search
+    @movies = Movie.where("title LIKE ?", params[:search])
+    render 'index'
+  end
+
   private
 
   def set_movie
